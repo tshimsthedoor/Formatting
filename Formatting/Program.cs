@@ -19,6 +19,7 @@ namespace Formatting
                 arg0: numberOfApples,
                 arg1: pricePerApple * numberOfApples);
             Console.WriteLine("This is the second way: " +formatted);
+            Console.WriteLine($"{numberOfApples} apples costs {pricePerApple * numberOfApples:c}");
         }
     }
 }
